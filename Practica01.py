@@ -20,23 +20,25 @@ print(f"{len(s)}")
 
 
 #PARTE 4
-numeropar=input("Dime un numero: ")
+
+numeropar=int(input("Dime un numero: "))
+
+
+
 for i in range (0,numeropar):
-    print(i+2)
-
-
-print(f"")
-
+   i += 2
+   print(i)
 
 
 
 
 
+'''
 try:
     num=int(input("Dime un numero: "))
 except:
     print ("fallo")
 
 print(f"el numero puesto es {num}")
-
+'''
 
